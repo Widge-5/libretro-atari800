@@ -46,7 +46,7 @@ int VKBD_OPACITY=-1;
 #if defined(ANDROID) || defined(__ANDROID__)
 int MOUSE_EMULATED=1;
 #else
-int MOUSE_EMULATED=-1;
+#int MOUSE_EMULATED=-1;
 #endif
 int SHIFTON=-1,MOUSEMODE=-1,PAS=4;
 int SND=1; //SOUND ON/OFF
