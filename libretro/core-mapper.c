@@ -43,11 +43,11 @@ int NPAGE=-1, KCOL=1, BKGCOLOR=0;
 int SHOWKEY=-1;
 int VKBD_OPACITY=-1;
 
-# if defined(ANDROID) || defined(__ANDROID__)
+
 int MOUSE_EMULATED=1;
-# else
-# int MOUSE_EMULATED=-1;
-# endif
+
+
+
 int SHIFTON=-1,MOUSEMODE=-1,PAS=4;
 int SND=1; //SOUND ON/OFF
 int pauseg=0; //enter_gui
