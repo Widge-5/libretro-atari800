@@ -48,10 +48,10 @@ int MOUSE_EMULATED=1;
 
 
 
-int SHIFTON=-1,MOUSEMODE=-1,PAS=4;
+int SHIFTON=-1,MOUSEMODE=1,PAS=4;
 int SND=1; //SOUND ON/OFF
 int pauseg=0; //enter_gui
-int touch=-1; // gui mouse btn
+int touch=1; // gui mouse btn
 //JOY
 int al[2][2];//left analog1
 int ar[2][2];//right analog1
